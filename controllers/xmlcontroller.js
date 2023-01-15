@@ -7,7 +7,7 @@ const datasave = async(req,res)=>{
 
 request.get("http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/xml/simple.xml",
 (error,response,body)=>{
-   // console.log(body)
+    console.log(body)
     if(error){
     //    return console.dir(error)
     }
